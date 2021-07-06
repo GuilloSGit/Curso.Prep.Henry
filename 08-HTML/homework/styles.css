@@ -1,0 +1,42 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-image: url(https://www.lacuisineinternational.com/wp-content/uploads/2020/11/PITT_cooking_elbrus.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+h1 {
+  color: rgb(255, 238, 0);
+}
+img {
+  width: 400px;
+  padding: 2px;
+  border-radius: 15px 75px 15px 75px;
+}
+
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background: rgba(241, 202, 202, 0.616);
+  padding: 50px;
+  border: 3px solid rgba(12, 7, 3, 0.63);
+  margin: 3px;
+}
+
+#divClass {
+  margin: 5px;
+  background: rgba(167, 143, 143, 0.822);
+  padding: 20px;
+  max-width: 65%;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+
+ul {
+  list-style: none;
+}
