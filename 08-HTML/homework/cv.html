@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/user-tie-solid.svg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined">
     <link rel="stylesheet" href="style.css">
@@ -19,9 +21,13 @@
     <div class="left-sidebar">
         <nav>
             <ul class="listaNavegador">
-                <li id="itemHome"><a class="itemLI tooltip"><span class="tooltiptext">back home</span><span class="material-icons-outlined">
+
+                <!--  -->
+                <li id="itemHome"><a class="itemLI tooltip"><span class="tooltiptext">home</span><span class="material-icons-outlined">
                     home
                 </span></a></li>
+                <!--  -->
+
                 <li id="itemAbout"><a href="#" class="itemLI tooltip"><span class="tooltiptext">brief about me</span><span class="material-icons-outlined">
                     question_answer
                 </span></a></li>
@@ -40,11 +46,14 @@
                 <li id="itemMore"><a href="#" class="itemLI tooltip"><span class="tooltiptext">more about me</span><span class="material-icons-outlined">
                     maps_ugc
                 </span></a></li>
+                <li id="itemSocial"><a href="#" class="itemLI tooltip"><span class="tooltiptext">me on social media</span><span class="material-icons-outlined">
+                    fingerprint
+                </span></a></li>
             </ul>
         </nav>
     </div>
     <main>
-        <div class="invisible" id="homeView">
+        <div class="visible" id="homeView">
             <div class="main_title" >
                 <h2>Hey there! <br> Would you like to know about me?</h2>
             </div>
@@ -55,7 +64,7 @@
                 <img class="foto_personal" src="assets/foto_personal.jpg" alt="Foto personal en una tranquera en el campo">
             </div>
         </div>
-        <div class="visible" id="aboutView">
+        <div class="invisible" id="aboutView">
             <div class="main_title" >
                 <h2>About me</h2>
             </div>
@@ -65,7 +74,7 @@
                 <p>Full of joy, full of life, always happy...</p>
                 <p> I started learning code in the 2020, with a National Program of capacitation promoted by CESSI (Cámara de la Industria Argentina del Software). </p>
                 <p>There, I learnt a bunch about coding and development.</p>
-                <p> I define myself as lifetime learner.</p>
+                <p> I define myself as <b>lifetime learner</b>.</p>
                 <p> People say about me that I am a reliable, respectful and lively person.</p>
             </div>
         </div>
@@ -133,11 +142,27 @@
                 <p>Today I worry about studying and doing everything I can to get the best out of this professional training journey.</p>
             </div>
         </div>
+        <div class="invisible" id="socialView">
+            <div class="main_title">
+                <h2>Me on social Media</h2>
+            </div>
+            <div class="main_text">
+                <ul class="socialMedia">
+                    <li class="itemSocialMedia"><a href="https://www.linkedin.com/in/guillermo-david-andrada/" target="_blank" class="tooltip2"><span class="tooltiptext2">LinkedIn</span><i class="fab fa-linkedin"></i></a></li>
+                    <li class="itemSocialMedia"><a href="https://jsfiddle.net/user/GuilleAndrada/fiddles/" target="_blank"class="tooltip2"><span class="tooltiptext2">fiddle</span><i class="fab fa-jsfiddle"></i></a></li>
+                    <li class="itemSocialMedia"><a href="https://codepen.io/guillosgit" target="_blank"class="tooltip2"><span class="tooltiptext2">CodePen</span><i class="fab fa-codepen"></i></a></li>
+                    <li class="itemSocialMedia"><a href="https://github.com/GuilloSGit" target="_blank"class="tooltip2"><span class="tooltiptext2">GitHub</span><i class="fab fa-github-square"></i></a></li>
+                    <li class="itemSocialMedia"><a href="https://www.sololearn.com/profile/5238708" target="_blank"class="tooltip2"><span class="tooltiptext2">SoloLearn</span><i class="fas fa-fan"></i></a></li>
+                    <li class="itemSocialMedia"><a href="https://es.duolingo.com/profile/GuilleAndrada" target="_blank"class="tooltip2"><span class="tooltiptext2">DuoLingo</span><i class="fas fa-user-circle"></i></a></li>
+                </ul>
+            </div>
+        </div>
     </main>
     <footer class="footerContainer">
-        <h3>Guillermo Andrada</h3>
+        <h4>Guillermo Andrada</h4>
         <h6>Tartagal - 2021</h6>
     </footer>
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
     <script src="script.js"></script>
 </body>
 </html>
